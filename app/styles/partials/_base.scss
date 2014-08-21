@@ -1,0 +1,155 @@
+@import "modules/all";
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display definitions
+======================================================= */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Typography
+======================================================= */
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+p {
+	font-size:$font-size-large;
+	font-family:$font-family-sans;
+}
+
+/* Lists 
+======================================================= */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links 
+======================================================= */
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a.btn {
+	font-size:14px;
+  width: 70px;
+  height: 20px;
+  color:#fff;
+  -webkit-border-radius: 3px;
+  	 -moz-border-radius: 3px;
+  				border-radius: 3px;
+  border:1px solid rgba(255,255,255, 1);
+  padding: 4px 6px 20px;
+  text-align: center;
+  display: inline-block;
+  transition-property: all;
+  transition-duration: .4s;
+  transition-timing-function: linear;
+}
+
+a.btn:hover {
+	background: rgba(255,255,255, 1);
+	color:rgba(44,62,80, 1);
+}
+
+.project-list {
+	// height:500px;
+}
+
+.project {
+	background-image: url("../images/test.png");
+	height:200px;
+}
+
+.project-info {
+	padding:50px 0 0 0;
+}
+
+.project-info a {
+	margin:45px 0 0 170px;
+}
+
+.project-list h2, .about h2 {
+	text-align:center;
+	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+  color:rgba(0,0,0, .8);
+  font-size: 42px;
+  font-weight: 100;
+  letter-spacing: .01em;
+  padding:0px 0 30px;
+  margin-top:110px;
+}
+
+.project-overlay {
+	background:rgba(212,84,0, .8);
+	height:200px;
+}
+
+.project-title {
+	color:rgba(255,255,255, 1);
+	padding:10px 0 0 0;
+	font-family:$font-family-sans;
+	font-weight:$font-weight-light;
+	font-size:$font-size-x-large;
+	text-align:center;
+}
+
+.project-description {
+	color:rgba(255,255,255, 1);
+	font-family:$font-family-sans;
+	font-size:$font-size-small;
+	text-align:center;
+}
+
+.ux-core {
+	padding:10px;
+}
+
+.ux-core li {
+	font-size:14px;
+  width: 30px;
+  height: 30px;
+  color:#fff;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  border:1px solid #fff;
+  padding: 6px 0 0 2px;
+  margin-left: 2px;
+  text-align: center;
+  display: inline-block;
+  transition-property: background;
+  transition-duration: .7s;
+  transition-timing-function: linear;
+}
+
+.proto {
+	border:1px solid rgba(0,0,0, .4);
+	// padding:4px;
+	height:200px;
+}
