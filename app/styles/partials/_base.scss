@@ -77,10 +77,23 @@ a.btn:hover {
 	color:rgba(44,62,80, 1);
 }
 
+.project-list li {
+	display:inline-block;
+	width:544px;
+	padding:40px;
+}
 
-.test {
-	background-image: url("../images/test.png");
-	height:200px;
+.project a {
+	display:block;
+	height: 100%;
+  width: 100%;
+  transition-property: all;
+  transition-duration: .4s;
+  transition-timing-function: linear;
+}
+
+.project a:hover {
+	background: rgba(0,0,0, 1);
 }
 
 .project-info {
@@ -104,7 +117,7 @@ a.btn:hover {
 
 .project-overlay {
 	background:rgba(212,84,0, .8);
-	height:200px;
+	height:400px;
 }
 
 .project-title {
@@ -121,6 +134,45 @@ a.btn:hover {
 	font-family:$font-family-sans;
 	font-size:$font-size-small;
 	text-align:center;
+}
+
+.page-title {
+  margin-top: 100px;
+  padding-bottom:20px;
+  text-align: center;
+  font-weight: $font-weight-light;
+}
+
+.page-title span {
+  display: block;
+  text-transform: uppercase;
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
+}
+
+.role {
+  display: block;
+  margin:0 0 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: $font-size-small;
+  font-weight: $font-weight-regular;
+}
+
+.role span {
+  text-transform: none;
+  font-weight: $font-weight-light;
+}
+
+.featured-text {
+  line-height: 1.5;
+  text-align:center;
+  font-size: $font-size-regular;
+  border-bottom:1px solid rgba(224,224,224,1);
+  border-top:1px solid rgba(224,224,224,1);
+  padding:30px 0 30px 0;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .ux-core {
@@ -143,6 +195,12 @@ a.btn:hover {
   transition-property: background;
   transition-duration: .7s;
   transition-timing-function: linear;
+}
+
+footer {
+  background:rgba(44,62,80, 1);
+  margin-top: 100px;
+  height:200px;
 }
 
 .proto {
