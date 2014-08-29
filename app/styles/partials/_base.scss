@@ -79,8 +79,8 @@ a.btn:hover {
 
 .project-list li {
 	display:inline-block;
-	width:544px;
-	padding:40px;
+	width:364px;
+	padding:20px;
 }
 
 .project a {
@@ -112,12 +112,12 @@ a.btn:hover {
   font-weight: 100;
   letter-spacing: .01em;
   padding:0px 0 30px;
-  margin-top:110px;
+  margin-top:60px;
 }
 
 .project-overlay {
-	background:rgba(212,84,0, .8);
-	height:400px;
+	background:rgba(44,62,80, .8);
+	height:300px;
 }
 
 .project-title {
@@ -175,6 +175,29 @@ a.btn:hover {
   margin: 0 auto;
 }
 
+.hz-line {
+  /*border-top:1px solid #ccc;*/
+  border-bottom:1px solid #ccc;
+  margin:10px auto;
+  padding:10px;
+  width:200px;
+}
+
+.work-text {
+  max-width: 800px;
+  margin:0 auto;
+  font-size: $font-size-large;
+  line-height:1.5;
+  letter-spacing: .01rem;
+}
+
+.work-image {
+  display: block;
+  margin:60px auto 20px auto;
+  max-width: 100%;
+  border:1px solid #ccc;
+}
+
 .ux-core {
 	padding:10px;
 }
@@ -198,7 +221,7 @@ a.btn:hover {
 }
 
 footer {
-  background:rgba(44,62,80, 1);
+  background:rgba(0,0,0, 1);
   margin-top: 100px;
   height:200px;
 }
