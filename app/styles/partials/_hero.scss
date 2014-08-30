@@ -9,31 +9,25 @@ hr.thin {
 
 .hero {
   background: url("../images/background1.png") fixed no-repeat center center / cover;
-  // background-repeat: no-repeat;
-  // -webkit-background-size: cover;
-  // background-size: cover;
-  // background-color:rgba(44,62,80, 1);
   width: 100%;
-  // min-height: 100%;
   height: 45em;
-  // opacity: 0;
 }
 
 .social {
-	width:100px;
+  text-align:center;
 	margin:0 auto;
 }
 
 .social-label {
-  font-size:20px;
-  width: 40px;
-  height: 40px;
-  color:#fff;
+  font-size:$font-size-xx-large;
+  width: 60px;
+  height: 60px;
+  color:$white;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  border:1px solid #fff;
-  padding: 8px 2px 0 5px;
+  border:1px solid $white;
+  padding: 10px 2px 0 5px;
   margin-left: 8px;
   text-align: center;
   display: inline-block;
@@ -69,22 +63,22 @@ a:hover.social-ln {
 	width:900px;
 }
 
-
 .tagline h1 {
-	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+	// font-family: $font-family-sans;
   color:rgba(255,255,255, 1);
   font-size: 68px;
   line-height: 74px;
-  font-weight: 400;
+  font-weight: $font-weight-regular;
   letter-spacing: -0.04em;
   padding-top:60px;
   text-align: center;
 }
 
 .tagline p {
-	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
-  color:rgba(255,255,255, 1);
-  font-size: 20px;
+	font-family: $font-family-sans;
+  color:rgba($white, 1);
+  font-size: $font-size-x-large;
   font-weight: 200;
   text-align: center;
   margin-top:60px;

@@ -1,7 +1,8 @@
 /* Typography */
 
-$font-family-sans:'Open Sans', sans-serif;
-$font-family-serif: 'Droid Serif', 'Georgia', serif;
+$font-family-sans:'Lato', sans-serif;
+// $font-family-sans-alt:'Oswald', sans-serif;
+
 
 /*$font-size-xx-large: 1.91em;
 $font-size-x-large: 1.618em;
@@ -21,7 +22,10 @@ $font-size-xx-small: 9.889px;
 
 $font-weight-light:	300;
 $font-weight-regular:	400;
-$font-weight-bold:	600;
+$font-weight-bold:	700;
+$font-weight-ultra-bold:	900;
 
 /* Color */
 $base-color: rgba(44,62,80, 1);
+$black: rgba(0,0,0, 1);
+$white: rgba(255,255,255, 1);

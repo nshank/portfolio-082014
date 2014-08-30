@@ -10,12 +10,15 @@ header {
 
 .logo {
 	margin-top:6px;
-	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
-  color:rgba(44,62,80, 1);
-  font-size: 22px;
-  font-weight: 400;
+	font-family: $font-family-sans;
+  font-size: $font-size-x-large;
+  font-weight: $font-weight-light;
   letter-spacing: -0.04em;
   float:left;
+}
+
+.logo a {
+  color:rgba(44,62,80, 1);
 }
 
 nav ul {
@@ -34,12 +37,8 @@ nav a {
 	text-decoration: none;
   text-transform: uppercase;
 	color:rgba(44,62,80, .7);
-	font-size:16px;
-	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
-  // -moz-border-radius: 4px;
-  // -webkit-border-radius: 4px;
-  // border-radius: 4px;
-  // border:1px solid #fff;
+	font-size:$font-size-regular;
+	font-family: $font-family-sans;
   transition-property: all;
   transition-duration: .8s;
   transition-timing-function: linear;

@@ -1,0 +1,38 @@
+body {
+	font-size: 100%;
+	font-family: $font-family-sans;
+	color:rgba(60,60,60,1);
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1 {
+	font-family: $font-family-sans;
+	font-size: $font-size-xx-large;
+	color:rgba(95,106,125, 1);
+}
+
+h2 {
+	font-family: $font-family-sans;
+	font-size: $font-size-x-large;
+	color:rgba(95,106,125, 1);
+}
+
+h2.subhead {
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  color:rgba($black, .8);
+}
+
+h3 {font-size: $font-size-large;}
+
+h4 {font-size: $font-size-regular;}
+
+p {
+	font-size:$font-size-large;
+	font-family:$font-family-sans;
+}

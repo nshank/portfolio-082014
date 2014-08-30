@@ -26,18 +26,6 @@ summary {
   display: block;
 }
 
-/* Typography
-======================================================= */
-
-h1, h2, h3, h4 {
-  margin: 0;
-}
-
-p {
-	font-size:$font-size-large;
-	font-family:$font-family-sans;
-}
-
 /* Lists 
 ======================================================= */
 
@@ -80,7 +68,7 @@ a.btn:hover {
 .project-list li {
 	display:inline-block;
 	width:364px;
-	padding:20px;
+	padding:18px;
 }
 
 .project a {
@@ -198,6 +186,20 @@ a.btn:hover {
   border:1px solid #ccc;
 }
 
+.paging {
+  margin:40px 0 20px 0;
+  text-align:center;
+}
+
+.previous, .next {
+  border:1px solid #999;
+  padding:10px;
+}
+
+.next {
+  margin-left: 6px;
+}
+
 .ux-core {
 	padding:10px;
 }
@@ -222,7 +224,7 @@ a.btn:hover {
 
 footer {
   background:rgba(0,0,0, 1);
-  margin-top: 100px;
+  margin-top: 80px;
   height:200px;
 }
 
