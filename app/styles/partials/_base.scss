@@ -71,6 +71,26 @@ a.btn:hover {
 	padding:18px;
 }
 
+li.hermes {
+  background: url("../images/hermes-th.png") no-repeat center center;
+}
+
+li.ecme {
+  background: url("../images/ecme-th.png") no-repeat center center; 
+}
+
+li.splash {
+  background: url("../images/splash-th.png") no-repeat center center; 
+}
+
+li.chicago {
+  background: url("../images/chicago-th.png") no-repeat center center; 
+}
+
+li.todo {
+  background: url("../images/todo-th.png") no-repeat center center; 
+}
+
 .project a {
 	display:block;
 	height: 100%;
@@ -85,7 +105,7 @@ a.btn:hover {
 }
 
 .project-info {
-	padding:50px 0 0 0;
+	padding:100px 0 0 0;
 }
 
 .project-info a {
@@ -104,8 +124,9 @@ a.btn:hover {
 }
 
 .project-overlay {
-	background:rgba(44,62,80, .8);
+	background:rgba(44,62,80, .9);
 	height:300px;
+  width:330px;
 }
 
 .project-title {
@@ -122,6 +143,12 @@ a.btn:hover {
 	font-family:$font-family-sans;
 	font-size:$font-size-small;
 	text-align:center;
+}
+
+.page-header {
+  background:rgba(0,0,0, .1);
+  padding:10px 0 40px;
+  border-bottom:1px solid rgba(44,62,80, .1);
 }
 
 .page-title {
@@ -157,7 +184,7 @@ a.btn:hover {
   text-align:center;
   font-size: $font-size-regular;
   border-bottom:1px solid rgba(224,224,224,1);
-  border-top:1px solid rgba(224,224,224,1);
+  // border-top:1px solid rgba(224,224,224,1);
   padding:30px 0 30px 0;
   max-width: 700px;
   margin: 0 auto;
@@ -186,18 +213,8 @@ a.btn:hover {
   border:1px solid #ccc;
 }
 
-.paging {
-  background:rgba(0,0,0, .1);
-  height:300px;
-  margin-top: 80px;
-}
 
-a.nav-growpop {
-  // padding:20px;
-  // border: 1px solid red;
-}
-
-.nav-growpop div {
+.paging div {
   margin-top:40px;
   padding: 20px;
   width: 320px;
@@ -206,15 +223,15 @@ a.nav-growpop {
   background:rgba(255,255,255, 1);
 }
 
-div .paging-next {
+.paging-next {
   float:right;
 }
 
-div .paging-prev {
+.paging-prev {
   float:left;
 }
 
-.nav-growpop span {
+.paging span {
 display: block;
 padding-bottom: 5px;
 border-bottom: 1px solid #ddd;
@@ -226,7 +243,7 @@ font-size: 0.7em;
 line-height: 1.2;
 }
 
-.nav-growpop h3 {
+.paging h3 {
 margin: 0;
 padding: 8px 0 10px;
 color: #818181;
@@ -235,28 +252,12 @@ font-size: 1.325em;
 line-height: 1.2;
 }
 
-.nav-growpop div p {
+.paging div p {
 margin: 0;
 color: #b24e44;
 font-style: italic;
 font-size: 75%;
 font-family: "Lucida Bright", Georgia, serif;
-}
-
-
-
-// .paging {
-//   margin:40px 0 20px 0;
-//   text-align:center;
-// }
-
-.previous, .next {
-  border:1px solid #999;
-  padding:10px;
-}
-
-.next {
-  margin-left: 6px;
 }
 
 .ux-core {
@@ -283,7 +284,14 @@ font-family: "Lucida Bright", Georgia, serif;
 
 footer {
   background:rgba(0,0,0, 1);
-  height:200px;
+  height:220px;
+  margin-top: 40px;
+}
+
+.contact-info {
+  text-align: center;
+  padding:40px 0 20px 0;
+  color:$white;
 }
 
 .proto {
