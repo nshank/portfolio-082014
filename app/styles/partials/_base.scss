@@ -187,9 +187,68 @@ a.btn:hover {
 }
 
 .paging {
-  margin:40px 0 20px 0;
-  text-align:center;
+  background:rgba(0,0,0, .1);
+  height:300px;
+  margin-top: 80px;
 }
+
+a.nav-growpop {
+  // padding:20px;
+  // border: 1px solid red;
+}
+
+.nav-growpop div {
+  margin-top:40px;
+  padding: 20px;
+  width: 320px;
+  height: 144px;
+  border:1px solid rgba(0,0,0, .1);
+  background:rgba(255,255,255, 1);
+}
+
+div .paging-next {
+  float:right;
+}
+
+div .paging-prev {
+  float:left;
+}
+
+.nav-growpop span {
+display: block;
+padding-bottom: 5px;
+border-bottom: 1px solid #ddd;
+color: #cdcdcd;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+font-size: 0.7em;
+line-height: 1.2;
+}
+
+.nav-growpop h3 {
+margin: 0;
+padding: 8px 0 10px;
+color: #818181;
+font-weight: 300;
+font-size: 1.325em;
+line-height: 1.2;
+}
+
+.nav-growpop div p {
+margin: 0;
+color: #b24e44;
+font-style: italic;
+font-size: 75%;
+font-family: "Lucida Bright", Georgia, serif;
+}
+
+
+
+// .paging {
+//   margin:40px 0 20px 0;
+//   text-align:center;
+// }
 
 .previous, .next {
   border:1px solid #999;
@@ -224,7 +283,6 @@ a.btn:hover {
 
 footer {
   background:rgba(0,0,0, 1);
-  margin-top: 80px;
   height:200px;
 }
 
