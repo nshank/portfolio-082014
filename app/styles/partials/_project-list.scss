@@ -1,0 +1,79 @@
+.project-list li {
+	display:inline-block;
+	width:362px;
+	padding:6px 0;
+}
+
+.project-overlay {
+  background:rgba(44,62,80, .9);
+  height:300px;
+  width:362px;
+}
+
+li.hermes {
+  background: url("../images/hermes-th.png") no-repeat center center;
+}
+
+li.ecme {
+  background: url("../images/ecme-th.png") no-repeat center center; 
+}
+
+li.splash {
+  background: url("../images/splash-th.png") no-repeat center center; 
+}
+
+li.chicago {
+  background: url("../images/chicago-th.png") no-repeat center center; 
+}
+
+li.todo {
+  background: url("../images/todo-th.png") no-repeat center center; 
+}
+
+.project a {
+	display:block;
+	height: 100%;
+  width: 100%;
+  transition-property: all;
+  transition-duration: .4s;
+  transition-timing-function: linear;
+}
+
+.project a:hover {
+	background: rgba(0,0,0, 1);
+}
+
+.project-info {
+	padding:100px 0 0 0;
+}
+
+.project-info a {
+	margin:45px 0 0 170px;
+}
+
+.project-list h2, .about h2 {
+	text-align:center;
+	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+  color:rgba(0,0,0, .8);
+  font-size: 42px;
+  font-weight: 100;
+  letter-spacing: .01em;
+  padding:0px 0 30px;
+  margin-top:60px;
+}
+
+.project-title {
+	color:rgba(255,255,255, 1);
+	padding:10px 0 0 0;
+	font-family:$font-family-sans;
+	font-weight:$font-weight-light;
+	font-size:$font-size-x-large;
+	text-align:center;
+}
+
+.project-description {
+	color:rgba(255,255,255, 1);
+	font-family:$font-family-sans;
+	font-size:$font-size-small;
+	text-align:center;
+}

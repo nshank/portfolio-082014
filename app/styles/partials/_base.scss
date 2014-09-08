@@ -65,88 +65,10 @@ a.btn:hover {
 	color:rgba(44,62,80, 1);
 }
 
-.project-list li {
-	display:inline-block;
-	width:364px;
-	padding:18px;
-}
 
-li.hermes {
-  background: url("../images/hermes-th.png") no-repeat center center;
-}
-
-li.ecme {
-  background: url("../images/ecme-th.png") no-repeat center center; 
-}
-
-li.splash {
-  background: url("../images/splash-th.png") no-repeat center center; 
-}
-
-li.chicago {
-  background: url("../images/chicago-th.png") no-repeat center center; 
-}
-
-li.todo {
-  background: url("../images/todo-th.png") no-repeat center center; 
-}
-
-.project a {
-	display:block;
-	height: 100%;
-  width: 100%;
-  transition-property: all;
-  transition-duration: .4s;
-  transition-timing-function: linear;
-}
-
-.project a:hover {
-	background: rgba(0,0,0, 1);
-}
-
-.project-info {
-	padding:100px 0 0 0;
-}
-
-.project-info a {
-	margin:45px 0 0 170px;
-}
-
-.project-list h2, .about h2 {
-	text-align:center;
-	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
-  color:rgba(0,0,0, .8);
-  font-size: 42px;
-  font-weight: 100;
-  letter-spacing: .01em;
-  padding:0px 0 30px;
-  margin-top:60px;
-}
-
-.project-overlay {
-	background:rgba(44,62,80, .9);
-	height:300px;
-  width:330px;
-}
-
-.project-title {
-	color:rgba(255,255,255, 1);
-	padding:10px 0 0 0;
-	font-family:$font-family-sans;
-	font-weight:$font-weight-light;
-	font-size:$font-size-x-large;
-	text-align:center;
-}
-
-.project-description {
-	color:rgba(255,255,255, 1);
-	font-family:$font-family-sans;
-	font-size:$font-size-small;
-	text-align:center;
-}
 
 .page-header {
-  background:rgba(0,0,0, .1);
+  background:$base-color;
   padding:10px 0 40px;
   border-bottom:1px solid rgba(44,62,80, .1);
 }
@@ -156,6 +78,7 @@ li.todo {
   padding-bottom:20px;
   text-align: center;
   font-weight: $font-weight-light;
+  color:$white;
 }
 
 .page-title span {
@@ -172,11 +95,7 @@ li.todo {
   text-align: center;
   font-size: $font-size-small;
   font-weight: $font-weight-regular;
-}
-
-.role span {
-  text-transform: none;
-  font-weight: $font-weight-light;
+  color:$white;
 }
 
 .featured-text {
@@ -184,10 +103,10 @@ li.todo {
   text-align:center;
   font-size: $font-size-regular;
   border-bottom:1px solid rgba(224,224,224,1);
-  // border-top:1px solid rgba(224,224,224,1);
+  border-top:1px solid rgba(224,224,224,1);
   padding:30px 0 30px 0;
   max-width: 700px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .hz-line {
@@ -213,22 +132,29 @@ li.todo {
   border:1px solid #ccc;
 }
 
-
 .paging div {
-  margin-top:40px;
+  margin-top:40px ;
   padding: 20px;
-  width: 320px;
-  height: 144px;
+  width: 220px;
+  height: 100px;
   border:1px solid rgba(0,0,0, .1);
   background:rgba(255,255,255, 1);
-}
-
-.paging-next {
-  float:right;
+  display: inline-block;
 }
 
 .paging-prev {
-  float:left;
+  float:right;
+}
+
+.paging-next, .paging-prev {
+  transition-property: all;
+  transition-duration: .4s;
+  transition-timing-function: linear;
+}
+
+.paging-next:hover, .paging-prev:hover {
+  // float:right;
+  background:rgba(44,62,80, .8);
 }
 
 .paging span {
@@ -244,20 +170,12 @@ line-height: 1.2;
 }
 
 .paging h3 {
-margin: 0;
-padding: 8px 0 10px;
+margin:0;
+padding: 12px 0 10px;
 color: #818181;
 font-weight: 300;
 font-size: 1.325em;
 line-height: 1.2;
-}
-
-.paging div p {
-margin: 0;
-color: #b24e44;
-font-style: italic;
-font-size: 75%;
-font-family: "Lucida Bright", Georgia, serif;
 }
 
 .ux-core {
