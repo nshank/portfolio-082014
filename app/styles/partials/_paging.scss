@@ -13,7 +13,10 @@
 }
 
 .project-overlay-paging {
-  background:rgba(44,62,80, .9);
+  // background:rgba(44,62,80, .9);
+  background:rgba(44,62,80, .9) url("../images/background-pattern.gif");
+  opacity: .95;
+  height:300px;
   width:206px;
   height:160px;
 }
